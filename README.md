@@ -8,11 +8,11 @@ For further reference, please see section 9.10 (and specifically 9.10.2) of the 
 Memory layout review
 As a quick review, we can visualize dynamic memory (aka the heap) as a list of chunks. From class, we know that each allocated or free block is started with header (shown as ‘h’ in the figure below), contains a payload (‘x’), and has some form of padding at the end.
 
-<code>
+'
 ----------------------------------------------------------------------  
 | h  | x  | x  | h  |    | h  | x  | h  |    |    |    |    |    |    ...  
 ----------------------------------------------------------------------  
 ^              ^         ^         ^  
 |              |         |         |  
 a              b         c         the rest of the heap...  
-<code/>
+'
