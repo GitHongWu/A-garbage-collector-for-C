@@ -17,6 +17,6 @@ As a quick review, we can visualize dynamic memory (aka the heap) as a list of c
 |              |         |         |  
 a              b         c         the rest of the heap...  
 
-`code()
+`code()  
 asdasdadsas
 `
